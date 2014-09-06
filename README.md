@@ -55,3 +55,8 @@ Someone is downloading aggressively?
 
 select cip, count(*) as count, (sum(bytesent)/1024/1024)::int as traffic from log_entries group by cip order by traffic desc limit 5;
 ```
+
+
+# TODO
+
+We did not parse log entries using proper data format.
