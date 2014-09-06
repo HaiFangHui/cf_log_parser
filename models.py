@@ -64,7 +64,7 @@ class LogFile(Base):
     __tablename__ = 'log_files'
     
     id = Column(Integer, primary_key=True)
-    filename = Column(String(100))
+    filename = Column(String(100), unique=True)
 
 
 def parse_log_data(data):
