@@ -1,9 +1,9 @@
 # HaiFangHui Toolsuite for download/parse CloudFront log
 
 
-cf_log_parser is an data analysis tool used in HaiFangHui.com, to
-download and parse CDN(cloudfront) logs, and store them in analytics
-database for further study and research.
+cf_log_parser is an data analysis tool used in
+http://www.HaiFangHui.com, to download and parse CDN(cloudfront) logs,
+and store them in analytics database for further study and research.
 
 This tool would track which log files have already been processed, and
 ignore them. This makes this tool very interesting when you have a
